@@ -1,0 +1,33 @@
+.pagination{
+    margin-left: 0;
+    display: contents;
+}
+
+.pagination li {
+    margin: 0 4px 9px;
+    list-style: none;
+}
+
+.pagination li.active a {
+    background: #4895ef;
+    color: #fff;
+}
+
+.pagination a, .pagination span {
+    background: #fff;
+    padding: 0 7px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    min-width: 50px;
+    text-align: center;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: #4895ef;
+    box-shadow: 0 5px 12px rgb(0 74 149 / 8%);
+    border-radius: 3px;
+    font-weight: 700;
+    text-decoration: none;
+}

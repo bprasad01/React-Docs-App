@@ -1,0 +1,20 @@
+.modal {
+  border: 1px solid black;
+  background: radial-gradient(black, transparent);
+  margin-top: 10px;
+  margin-left: 22px;
+  width: 150px;
+  height: 200px;
+}
+
+.modal-area{
+    display : flex;
+    justify-content: space-between;
+    /* width: 10%; */
+}
+
+.close-btn{
+    height: 30px;
+    margin: 10px 5px;
+    color: red;
+}
